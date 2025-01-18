@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const PopularTags = () => {
@@ -101,6 +102,9 @@ const PopularTags = () => {
           <span className="text-textGray text-sm">20k posts</span>
         </div>
       </div>
+      <Link href="/" className="text-iconBlue">
+        Show More
+      </Link>
     </div>
   );
 };
